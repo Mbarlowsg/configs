@@ -37,6 +37,7 @@ return {
                 "tsserver",
                 "eslint",
                 -- "yamlls", 
+                "pyright"
             }
         })
 
