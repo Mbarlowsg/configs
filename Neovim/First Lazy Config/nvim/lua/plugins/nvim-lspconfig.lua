@@ -68,6 +68,17 @@ return {
                 },
             },
         }
+
+        -- Python LSP Settings
+        lspconfig.pyright.setup {
+            settings = {
+                python = {
+                    analysis = {
+                        extraPaths = {"C:/Python312/Lib/site-packages"}
+                    }
+                }
+            }
+        } 
     end
 }
 
